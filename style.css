@@ -1,0 +1,43 @@
+@charset "utf-8";
+body {
+  background-color: 	#FAEBD7;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.custom-navbar {
+  background-color: #A0522D; 
+}
+/* Нижня частина сторінки */
+footer {
+  background-color: #A0522D;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ліва колонка */
+.sidebar {
+  background-color: 	#FDF5E6;
+  padding: 15px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+/* Центральна частина */
+.content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Кнопки */
+.btn {
+  margin-right: 10px;
+}
+
+/* Іконки */
+.fa-solid {
+  margin-right: 5px;
+}

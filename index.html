@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Лабораторна робота №8</title>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<!--  Навігаційне меню -->
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i> Головна</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Про нас</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Сервіси</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Веб-розробка</a></li>
+            <li><a class="dropdown-item" href="#">Дизайн</a></li>
+            <li><a class="dropdown-item" href="#">Підтримка</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h2 class="text-center"><i class="fa-solid fa-laptop-code"></i> Лабораторна робота №8 — Bootstrap</h2>
+<!--  Основний блок -->
+<div class="container my-4">
+  <div class="row">
+    <!-- Ліва колонка -->
+    <div class="col-md-3 sidebar">
+      <h5><i class="fa-solid fa-bars"></i> Меню</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Профіль</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Налаштування</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Вихід</a></li>
+      </ul>
+    </div>
+
+    <!-- Центральна колонка -->
+    <div class="col-md-9 content">
+      <h4>Форма з кнопками</h4>
+      <p>Введіть свої дані нижче:</p>
+
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Ім’я:</label>
+          <input type="text" class="form-control" id="name" placeholder="Введіть ім’я">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Введіть email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Повідомлення:</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Ваше повідомлення"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Надіслати</button>
+        <button type="reset" class="btn btn-secondary"><i class="fa-solid fa-eraser"></i> Очистити</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Нижня частина сторінки -->
+<footer>
+  <p>&copy; 2025 Bootstrap Лабораторна робота №8 | Почтар Крістіна, ПП-22</p>
+</footer>
+<script src="bootstrap.bundle.js"></script>
+<script src="bootstrap.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
